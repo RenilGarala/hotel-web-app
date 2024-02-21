@@ -1,0 +1,54 @@
+.footLogo{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    place-items: center;
+}
+.footLogo:hover,.cname:hover{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    place-items: center;
+    font-size: 18px;
+}
+.footer{
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color:orange;
+    height: 300px;
+    gap: 20%;
+}
+.leftFoot{
+    display: flex;
+}
+.footerInformation{
+    margin-right: 100px;
+}
+.footerHLink{
+    margin-right: 100px;
+}
+.links a{
+    display: grid;
+    color: rgb(95, 79, 51);
+    padding: 4px;
+}
+.links a:hover{
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+}
+
+.links{
+    margin-top: 10px;
+}
+.footerContact{
+    position: relative;
+}
+.footerHLink{
+    position: relative;
+}
+.footerInformation{
+    position: relative;
+}

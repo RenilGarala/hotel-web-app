@@ -1,0 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+#backgroung{
+  height:540px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+

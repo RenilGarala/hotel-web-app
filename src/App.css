@@ -1,0 +1,28 @@
+/* .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    column-gap: 100px;
+    row-gap: 70px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+} */
+.bodypart{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    align-items: center;
+}
