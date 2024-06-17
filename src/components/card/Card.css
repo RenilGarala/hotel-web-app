@@ -1,0 +1,61 @@
+.card{
+    height: auto;
+    width: 260px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* border-radius: 20px; */
+    overflow: hidden;
+}
+/* .mainpart{
+    flex: 25%;
+} */
+.hotelpic{
+    width: 100%;
+    border-radius: 0px;
+    height: 150px;
+}
+.cardinfo{
+    padding: 10px;
+}
+.hotelname{
+    padding-bottom: 10px;
+}
+.hoteladd{
+    font-size: 14px;
+    color: rgb(104, 104, 104);
+}
+.rating{
+    width: auto;
+    font-size:13px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(222, 222, 222);
+    border: none;
+    border-radius: 20px;
+    padding: 9px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(80, 80, 80); 
+}
+.price{
+    font-size: 18px;
+    font-weight: bold;
+}
+.roombtn{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: orange;
+    font-size: 17px;
+    border: none;
+}
+.roombook :hover{
+    width: 95%;
+}
+.roombook{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

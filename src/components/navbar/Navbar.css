@@ -1,0 +1,95 @@
+.navbar{
+    background-color: orange;
+    width: 100%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+.navpic{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.logo{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navli{
+    list-style-type: none;
+    display: inline;
+    margin-right: 40px;
+}
+.nava {
+    color: black;
+    padding-bottom: 5px;
+    position: relative;
+    text-decoration: none;
+}
+#profile{
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.signin_btn{
+    border: 1px solid black;
+    background-color: orange;
+    color: black;  
+}
+.signup_btn{
+    background-color: black;
+    color: orange;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        height: 100%;
+    }
+    .navpic{
+        width: 25px;
+        height: 25px;
+        margin-right: 8px;
+    }
+    .header{
+        font-size: 16px;
+    }
+    .navli{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+.navli {
+    border: 2px solid blac;
+}
+.nava {
+    text-decoration: none;
+    color: black;
+}
+.nava.active::after {
+    content: '';
+    position: absolute;
+    bottom: -3px; /* Adjust this value to control the position of the underline */
+    left: 0;
+    width: 100%;
+    height: 2px; /* Adjust this value to control the thickness of the underline */
+    background-color: black; 
+}

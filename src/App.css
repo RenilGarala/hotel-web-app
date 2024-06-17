@@ -1,0 +1,17 @@
+.bodypart{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    align-items: center;
+}
